@@ -10,6 +10,7 @@
     
 </body>
 <script>
+
     //dania 
      function startRace(){
         const array = ["dania", "saleh", "nibras","omar","mohammad","ahmad","saly","sara","hamza","yishai"];
@@ -20,6 +21,10 @@
     function pickRunner(array) {
             const newarr = array[Math.floor(Math.random() * array.length)];
             placeRunners(newarr);
+    }
+    //nibras
+        function logWinners(nameArray,timeArray ){
+        console.log("Congrats! "+nameArray[0]+" is first Place with the time of "+timeArray[0]+ ", "+nameArray[1]+ " is second Place with the time of "+timeArray[1]+", "+nameArray[2]+" is third Place with the time of "+timeArray[2]);
     }
 </script>
 </html>
